@@ -1,0 +1,85 @@
+*{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body{
+    background-color: #63cafc;
+    font-family: "Pixelify Sans";
+}
+
+
+header {
+    text-align: center;
+}
+
+
+h1 {
+    font-family: "Pixelify Sans";
+    font-size: xxx-large;
+}
+
+.card{
+ text-align: center;
+ color: #fff;
+ background-color: #1313c0; 
+ border: #fff;
+ margin-left: 10%;
+ margin-right: 10%;
+ border-style: double;
+    border-width: 2vh;
+    margin-top: 1vh;
+}
+
+#cardhero{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    font-family: "Pixelify Sans";
+
+    color: #fff;
+    background-color: #1313c0; 
+    border: #fff;
+    border-style: double;
+    border-width: 2vh;
+    margin-top: 1vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#esquerda{
+   grid-column: 1fr;
+}
+
+#direita{
+
+    grid-column: auto;
+    font-size: xxx-large;
+    text-align: left;
+    margin-top: 1vh;
+    padding-left: 3vh;
+}
+
+#direita input , select{
+    
+    font-size: xxx-large;
+    margin-top: 1vh;
+}
+
+#direita button{
+    font-size: xxx-large;
+    margin-top: 1vh;
+    background-color: #fff;
+    margin-left: 30%;
+}
+#direita p{
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#cardhero img{
+    padding: 1vh;
+    width: 100%;
+    image-rendering: pixelated;
+    vertical-align: middle;
+}
